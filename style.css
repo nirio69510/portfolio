@@ -9,8 +9,9 @@
 }
 
 body {
-    margin:0;
+    margin: 0;
 }
+
 p {
     font-family: "Radikal";
 }
@@ -22,6 +23,7 @@ li {
 h1 {
     font-family: "Avant-garde";
     font-size: 40px;
+    padding-top: 75px;
 }
 
 .comp1,
@@ -53,9 +55,9 @@ h1 {
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-start;
-    width:150px;
+    width: 150px;
+    margin-top: 75px;
+    margin-left: 15px;
 }
 
 .container {
@@ -84,6 +86,7 @@ h1 {
 
 .main_realisations {
     background-color: #ebd477;
+    width: 100%;
 }
 
 .main_parcours {
@@ -213,5 +216,61 @@ textarea {
 }
 
 value {
-      font-family: "Radikal";
+    font-family: "Radikal";
+}
+
+/* réalisations */
+
+.project {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    color: rgba(255, 255, 255, 0);
+    background-color: black;
+}
+
+.project .content {
+    width: 90%;
+    padding: 5%;
+    position: abosulte;
+    bottom: 0px;
+    left: 0px;
+}
+
+#p1 {
+    background: url('https://en.as.com/en/imagenes/2019/11/13/football/1573635710_533379_noticia_normal.jpg');
+}
+
+#p2 {
+    background: url('https://www.footmercato.net/images/a/moussa-dembele-enchaine-les-buts-en-2020_272272.jpg');
+}
+
+#p3 {
+    background: url('https://www.leparisien.fr/resizer/3KsrGnVM03nT3YIz9f8yhVJcJUc=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/TC4OUAODN4DORMOEQ2LBYXHPAA.jpg');
+}
+
+#p4 {
+    background: url('https://img.20mn.fr/vw9tFKq_RJqjzy4AhsMXGA/830x532_lyon-s-new-sport-director-juninho-of-brazil-meets-the-media-in-decines-near-lyon-central-france.jpg');
+}
+
+.project:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 900px) {
+    .project {
+        width: 35%;
+        margin: 5%;
+    }
+}
+
+@media only screen and (max-width: 899px) {
+    .project {
+        width: 90%;
+        margin: 20px auto 20px auto;
+    }
 }
