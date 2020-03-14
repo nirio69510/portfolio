@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Avant-garde";
+    src: url('font/avant-garde.ttf');
+}
+
+@font-face {
+    font-family: "Radikal";
+    src: url('font/radikal.ttf');
+}
+
+body {
+    margin:0;
+}
+p {
+    font-family: "Radikal";
+}
+
+li {
+    font-family: "Avant-garde";
+}
+
+h1 {
+    font-family: "Avant-garde";
+    font-size: 40px;
+}
+
+.comp1,
+.comp2 {
+    font-family: "Radikal";
+    font-size: 25px;
+    margin: 0px;
+}
+
+.comp2 {
+    margin-bottom: 80px;
+}
+
+.comp1 {
+    margin-top: -10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.menu a {
+    padding: 0 30px;
+    font-family: "Avant-garde";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width:150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_accueil {
+    display: flex;
+    background-color: #ff553b;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portrait {
+    display: flex;
+    width: 700px;
+    padding-top: 100px;
+}
+
+.main_realisations {
+    background-color: #ebd477;
+}
+
+.main_parcours {
+    background-color: #67ff6f;
+}
+
+.main_contact {
+    display: flex;
+    background-color: #7229e8;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.titre_contact {
+    display: flex;
+
+}
+
+.footer_accueil {
+    margin-left: -10px;
+    /* à adapter */
+}
+
+.footer_realisations {
+    margin-left: -20px;
+    /* à adapter */
+}
+
+.footer_parcours {
+    margin-left: 0px;
+    /* à adapter */
+}
+
+.footer_contact {
+    margin-left: -2px;
+    /* à adapter */
+}
+
+.adresse_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook {
+    height: 30px;
+    width: 30px;
+}
+
+.instagram {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+
+.twitter {
+    height: 30px;
+    width: 30px;
+}
+
+header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    height: 50px;
+}
+
+.resauxsociaux {
+    display: flex;
+}
+
+.elem_menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.nom,
+.prenom {
+    margin: 30px;
+}
+
+.mail,
+.telephone {
+    margin: 0px 30px 30px 30px;
+}
+
+.sujet {
+    margin: 0px 30px 30px 30px;
+}
+
+.message {
+    margin: 0px 30px 30px 30px;
+}
+
+.envoyer {
+    display: flex;
+    margin: 0px 30px 30px 30px;
+    justify-content: flex-end;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    align-content: center;
+    font-family: "Avant-garde";
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+}
+
+::placeholder {
+    font-family: "Radikal";
+    font-size: 18px;
+    color: darkgray;
+}
+
+value {
+      font-family: "Radikal";
+}

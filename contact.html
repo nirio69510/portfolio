@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="" alt="logo arthur de almeida" />
+        <nav>
+            <div class="menu">
+                <div class="accueil"><a href="index.html">Accueil</a></div>
+                <div class="realisations"><a href="realisations.html">Réalisations</a></div>
+                <div class="parcours"><a href="parcours.html">Parcours</a></div>
+                <div class="contact"><a href="contact.html">Contact</a></div>
+            </div>
+        </nav>
+    </header>
+    <main class="main_contact">
+        <div class="container">
+            <form action="traitement.php" method="post">
+                <div class="container1">
+                    <div class="nom">
+                        <label for="nom"></label>
+                        <input type="text" id="nom" name="user_nom" autocomplete="on" placeholder="Nom" autofocus="autofocus"></div>
+                    <div class="prenom">
+                        <label for="prenom"></label>
+                        <input type="text" id="prenom" name="user_prenom" placeholder="Prénom" autocomplete="on"></div>
+                </div>
+                <div class="container1">
+                    <div class="telephone">
+                        <label for="telephone"></label>
+                        <input type="tel" id="telephone" placeholder="Téléphone" name="user_telephone" autocomplete="on"></div>
+                    <div class="mail">
+                        <label for="mail"></label>
+                        <input type="email" id="mail" placeholder="E-mail" name="user_mail" autocomplete="on" required="required"></div>
+                </div>
+                <div class="sujet">
+                    <label for="sujet"></label>
+                    <input type="text" id="sujet" placeholder="Sujet" name="user_sujet" required="required"></div>
+                <div class="message">
+                    <label for="message"></label>
+                    <textarea id="message" placeholder="Message..." name="user_message" required="required"></textarea></div>
+                <div class="envoyer">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+        <h1 class="titre_contact">Contact</h1>
+    </main>
+    <footer>
+        <div class="resauxsociaux">
+            <img class="facebook" src="img/facebook.png" alt="facebook" />
+            <img class="instagram" src="img/instagram.png" alt="instagram" />
+            <img class="twitter" src="img/twitter.png" alt="twitter" />
+        </div>
+        <div class="adresse_footer">
+            <h2 class="nom_footer">Arthur DE ALMEIDA</h2>
+            <p class="adresse">La Bouyne</p>
+            <p class="postal">81500 Saint Jean de Rives</p>
+        </div>
+    </footer>
+</body>
+
+</html>
